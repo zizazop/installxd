@@ -43,7 +43,7 @@ while(1==1):
                                 os.rename(filename,u''+os.getcwd()+'/ANDREWCODE/'+filename)
                                 s='https://raw.githubusercontent.com/zizazop/installxd/main/INSTALATORXD.py'
                                 filename= wget.download(s)
-                                os.rename(filename,u''+os.getcwd()+'/ANDREWCODE/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА'+filename)
+                                os.rename(filename,u''+os.getcwd()+'/ANDREWCODE'+'/'+'ИСХОДНЫЙ-КОД-УСТАНОВЩИКА/'+filename)
                                 time.sleep(2)
                                 print('Успех! все установлено.')
                                 time.sleep(1)
