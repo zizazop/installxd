@@ -40,7 +40,7 @@ while(1==1):
                                 os.makedirs(home+'/Desktop/'+'ANDREWCODE'+'/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА')
                                 filename= wget.download(s)
                                 os.rename(filename,u''+os.getcwd()+'/ANDREWCODE/'+filename)
-                                s='https://raw.githubusercontent.com/zizazop/-/main/INSTALL%20XD.py'
+                                s='https://raw.githubusercontent.com/zizazop/installxd/main/INSTALATORXD.py'
                                 filename= wget.download(s)
                                 os.rename(filename,u''+os.getcwd()+'/ANDREWCODE/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА'+filename)
                                 time.sleep(2)
@@ -124,4 +124,3 @@ while(1==1):
                                                                                 if(h==kolvo):
                                                                                                 print('COMPLETED!')
                                                                                                 break
-
