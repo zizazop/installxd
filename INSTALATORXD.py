@@ -60,7 +60,7 @@ while(1==1):
                                 os.remove(home+'/'+'Desktop'+'/'+'installpythonby.exe')
                                 print('INSTALL PYTHON DELETED!')
                                 time.sleep(0.5)
-                                os.remove(home+'/'+'Desktop'+'/'+'INSTALATOR XD.exe')
+                                os.remove(home+'/'+'Desktop'+'/'+'INSTALATORXD.exe')
                                 
                                 
                 if(frfr==666):
