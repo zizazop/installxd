@@ -16,6 +16,8 @@ subprocess.call(["pip","install","wheel"])
 subprocess.call(["pip","install","pyinstaller"])
 subprocess.call(["pip","install","--upgrade","pip"])
 home= expanduser("~")
+print('ВСЕ БИБЛЕОТЕКИ И МОДУЛИ БЫЛИ УСПЕШНО УСТАНОВЛЕНЫ!')
+time.sleep(1.5)
 print('SEARCH USERS')
 time.sleep(1)
 print(home+'.....NICE_I_FOUND//')
@@ -23,8 +25,6 @@ time.sleep(1)
 print('SUCCESSS')
 import requests,wget,html2text
 time.sleep(2.5)
-print('ВСЕ БИБЛЕОТЕКИ И МОДУЛИ БЫЛИ УСПЕШНО УСТАНОВЛЕНЫ!')
-time.sleep(1.5)
 print('А теперь ближе к делу...')
 time.sleep(1.5)
 while(1==1):
@@ -44,13 +44,12 @@ while(1==1):
                                 s='https://raw.githubusercontent.com/zizazop/installxd/main/INSTALATORXD.py'
                                 filename= wget.download(s)
                                 os.rename(filename,u''+os.getcwd()+'/ANDREWCODE'+'/'+'ИСХОДНЫЙ-КОД-УСТАНОВЩИКА/'+filename)
+                                os.makedirs(home+'/Desktop/'+'ANDREWCODE'+'/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА-ПИТОН')
+                                s='https://raw.githubusercontent.com/zizazop/installpythonwwwabd/main/installpythonby.py'
+                                filename=wget.download(s)
+                                os.rename(filename,u''+os.getcwd()+'/ANDREWCODE'+'/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА-ПИТОН/'+filename)
                                 time.sleep(2)
                                 print('Успех! все установлено.')
-                                time.sleep(1)
-                                print('Пологаю вам нужно cmd?')
-                                subprocess.call(['cmd'])
-                                time.sleep(1.5)
-                                print('GOOD')
                                 time.sleep(3)
                                 print('Если захочешь деталь осмотреть скрипт тогда зайди в исходный код скрипта приложеным к ранее скачаным файлам(P>S они в тойже папке:) ')
                                 time.sleep(5)
@@ -58,7 +57,11 @@ while(1==1):
                                 time.sleep(2)
                                 print('POKA')
                                 time.sleep(8)
+                                os.remove(home+'/'+'Desktop'+'/'+'installpythonby.exe')
+                                print('INSTALL PYTHON DELETED!')
+                                time.sleep(0.5)
                                 os.remove(home+'/'+'Desktop'+'/'+'INSTALATOR XD.exe')
+                                
                                 
                 if(frfr==666):
                                             solod=requests.get('https://vk.com/andrey47785')
